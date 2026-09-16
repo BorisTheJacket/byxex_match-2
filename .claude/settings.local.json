@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/hospodar/Extensions/flutter/bin/flutter analyze *)",
+      "Bash(/Users/hospodar/Extensions/flutter/bin/flutter pub *)",
+      "Bash(/Users/hospodar/Extensions/flutter/bin/dart run *)",
+      "Bash(brew list *)",
+      "Read(//usr/local/opt/**)",
+      "Read(//Library/Java/JavaVirtualMachines/**)",
+      "Bash(brew install *)",
+      "Bash(/usr/libexec/java_home -V)",
+      "Read(//opt/homebrew/**)",
+      "Read(//usr/local/Caskroom/**)",
+      "Bash(pod install *)",
+      "Bash(find ~/.cocoapods ~/Library/Caches/CocoaPods -path \"*OneSignalXCFramework/5.5.1*\" -name \"*.podspec.json\" 2>/dev/null | head; echo \"---\"; find ~/.cocoapods -path \"*OneSignalXCFramework*5.5*\" -name \"*.json\" 2>/dev/null | head)",
+      "Read(//Users/hospodar/.cocoapods/**)",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('/Users/hospodar/.cocoapods/repos/trunk/Specs/d/f/3/OneSignalXCFramework/5.5.0/OneSignalXCFramework.podspec.json'\\)\\);print\\('platforms:',d.get\\('platforms'\\)\\);print\\('version:',d.get\\('version'\\)\\)\")",
+      "Bash(curl -s \"https://cdn.cocoapods.org/Specs/d/f/3/OneSignalXCFramework/5.5.1/OneSignalXCFramework.podspec.json\")",
+      "Bash(python3 -c \"import json,sys;d=json.load\\(sys.stdin\\);print\\('platforms:',d.get\\('platforms'\\)\\);print\\('subspecs platforms:',[ \\(s.get\\('name'\\),s.get\\('platforms'\\)\\) for s in d.get\\('subspecs',[]\\)][:8]\\)\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/f/3/OneSignalXCFramework/5.5.1/OneSignalXCFramework.podspec.json\")",
+      "Bash(curl -s \"https://cdn.jsdelivr.net/cocoa/Specs/d/f/3/OneSignalXCFramework/5.5.1/OneSignalXCFramework.podspec.json\")",
+      "Bash(python3 -c \"import json,sys;d=json.load\\(sys.stdin\\);print\\('platforms:',d.get\\('platforms'\\)\\)\")",
+      "Bash(python3 -c \"import json,sys;d=json.load\\(sys.stdin\\);print\\('source:',d.get\\('source'\\)\\)\")",
+      "Bash(curl -s https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/f/3/OneSignalXCFramework/__TRACKED_VAR__/OneSignalXCFramework.podspec.json)",
+      "Bash(curl -s \"https://api.github.com/repos/OneSignal/OneSignal-iOS-SDK/contents?ref=5.5.1\")",
+      "Bash(python3 -c \"import json,sys; [print\\(f['name']\\) for f in json.load\\(sys.stdin\\) if f['name'].endswith\\('.podspec'\\) or 'XCFramework' in f['name'] or f['name'].endswith\\('.podspec.json'\\)]\")",
+      "Bash(rm -rf build .dart_tool ios/Pods ios/.symlinks ios/Flutter/ephemeral android/.gradle android/build .flutter-plugins .flutter-plugins-dependencies macos/Pods linux/build windows/build 2>/dev/null; echo \"removed\"; du -sh . 2>/dev/null)",
+      "Bash(python3 -)",
+      "Bash(pip3 install *)",
+      "Read(//Users/hospodar/Desktop/**)",
+      "Bash(unzip -l byxex_match_clean.zip)",
+      "Bash(grep -E \"pubspec.yaml|pubspec.lock|Podfile$|Podfile.lock|main.dart|CLAUDE.md|/lib/|pubspec\")",
+      "Bash(awk '{print $4}')",
+      "Bash(grep -E \"^byxex_match/[^/]+/?$\")"
+    ],
+    "additionalDirectories": [
+      "/Users/hospodar/Desktop/byxex_match/build"
+    ]
+  }
+}
